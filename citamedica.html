@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar Mental</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Bootstrap Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container-fluid">
+        <div class="main-logo d-lg-none">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo de bienestar mental" width="50" height="50">
+                Bienestar Mental
+            </a>
+        </div>
+        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header mt-3">
+            <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-between">
+            <div class="main-logo">
+                <a class="navbar-brand fs-3" href="index.html">
+                    <img src="img/logo.png" alt="logo del centro de salud bienestar mental" width="70" height="70">
+                    Bienestar Mental
+                </a>
+            </div>
+            <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
+                <li id="menu" class="nav-item">
+                    <a href="index.html" class="nav-link mx-2 fs-5">Inicio</a>
+                </li>
+                <li id="menu" class="nav-item dropdown">
+                    <a class="nav-link mx-2 dropdown-toggle fs-5" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <ul class="nav-item dropdown-menu">
+                        <li><a class="dropdown-item fs-5" href="citamedica.html">Cita médica</a></li>
+                        <li><a class="dropdown-item fs-5" href="emisiondecertificado.html">Emisión de certificado</a></li>
+                    </ul>
+                    </li>
+                    <li id="menu" class="nav-item">
+                    <a href="acercade.html" class="nav-link mx-2 fs-5">Acerca de</a>
+                </li>
+                <li id="menu" class="nav-item">
+                    <a href="conocete.html" class="nav-link mx-2 fs-5">Conócete</a>
+                    </li>
+                <li class="text-start text-lg-end">
+                    <a class="btn" href="contacto.html">
+                        <button> <i class="fas fa-envelope "></i> 
+                           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                               <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path>
+                           </svg>
+                           Contacto
+                        </button>
+                    </a>
+                </li>
+        </div>
+        </div>
+    </nav>
+
+
+    <!-- Breadcrumb -->
+    <p style="margin: 0rem 0rem 2rem 3rem; font-family: Plus Jakarta Sans, sans-serif; color: #7B7B7B" >Inicio <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg> Servicio
+    </p>
+
+
+    <!-- BANNER -->
+    <div id="principal" class="container-center mt-3 rounded-4 mx-5" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+            <div class="row g-2 align-items-center p-4">
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="display-5 fw-bold">Cita médica <br> psiquiátrica</h1>
+                    <p class="info fs-5">Te ofrecemos un servicio en salud mental integral a través de la psiquiatría con intervención en psicoterapia cognitivo conductual.</p>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/cita.png" class="img-fluid animated zoomIn" alt="Cita médica psiquiátrica">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Detalles de los servicios -->
+    <section class="services">
+        <div class="service-details">
+            <div class="detail">
+                <i class="bi bi-clock"></i>
+                <p>Sesiones de 45 minutos aprox.</p>
+            </div>
+            <div class="separator"></div>
+            <div class="detail">
+                <i class="bi bi-cash-coin"></i>
+                <p>Virtual: S/180<br>Presencial: S/200</p>
+            </div>
+            <div class="separator"></div>
+            <div class="detail">
+                <i class="bi bi-person"></i>
+                <p>Sesiones individuales</p>
+            </div>
+            <div class="separator"></div>
+            <div class="detail">
+                <i class="bi bi-calendar3"></i>
+                <p>Cambio en el horario de tu cita hasta con 10 horas de anticipación</p>
+            </div>
+        </div>
+        <div class="booking-section">
+            <a class="btn-cont " href="contacto.html">
+                <button> <i class="fas fa-envelope"></i> 
+                   Reservar cita
+                </button>
+              </a>
+            <p>Si tienes alguna duda puedes comunicarte con nosotros <span class="whatsapp">vía WhatsApp</span></p>
+        </div>
+    </section>
+
+    <!-- Sección de Nuestros Servicios -->
+    <div id="nuestros-servicios" class="service-container container-center mt-3 rounded-4 mx-5">
+        <h2>Nuestros Servicios</h2>
+        <p>Estás a un paso de comprender tus problemas, reconocer tu potencial y sanar tus heridas emocionales.</p>
+        <div class="content">
+            <div class="image">
+                <img src="img/servicios.jpg" alt="una persona con muchos pensamientos en su cabeza">
+            </div>
+            <div class="service-list">
+                <div class="service-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p>Tomar mejores decisiones.</p>
+                </div>
+                <div class="service-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p>Sentirte mejor contigo mismo.</p>
+                </div>
+                <div class="service-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                     <p>Gozar de un estado de bienestar constante.</p>
+                </div>
+                <div class="service-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p>Afrontar situaciones problemáticas con mayor facilidad.</p>
+                </div>
+                <div class="service-item">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p>Tener relaciones amenas con las personas de tu entorno.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preguntas frecuentes -->
+    <div class="container-center mt-3 rounded-4 mx-5 mb-3" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container-fluid ">
+
+            <div class="faq-item">
+                <h1 class="fs-1 mb-5 text-center"><b>Preguntas Frecuentes</b></h1>
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Qué incluye la cita médica psiquiátrica?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">La atención incluye el examen mental integral (evaluación psiquiátrica y psicoterapéutica) así como la observación de los factores externos que pueden ayudar o dificultar tu recuperación.</div>
+            </div>
+
+
+            <div class="faq-item">
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Qué no incluye la cita médica psiquiátrica?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">La cita médica psiquiátrica no incluye la realización de estudios de laboratorio o pruebas diagnósticas adicionales que no estén relacionadas directamente con la evaluación psiquiátrica inicial.</div>
+            </div>
+
+
+            <div class="faq-item">
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Es obligatorio el uso de medicamentos psicofarmacológicos?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">No, el uso de medicamentos psicofarmacológicos no es obligatorio. Cada caso es evaluado de manera individual y se discuten las opciones de tratamiento con el paciente, incluyendo intervenciones psicoterapéuticas.</div>
+            </div>
+
+
+            <div class="faq-item">
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Los medicamentos psicofarmacológicos generan dependencia?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">No todos los medicamentos psicofarmacológicos generan dependencia. Algunos medicamentos pueden tener un potencial de dependencia, pero se prescriben bajo supervisión médica cuidadosa para minimizar riesgos.</div>
+            </div>
+
+
+            <div class="faq-item">
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Los efectos secundarios de los medicamentos son perjudiciales?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">Todos los medicamentos pueden tener efectos secundarios, pero no necesariamente son perjudiciales. Los beneficios del tratamiento generalmente superan los riesgos de los efectos secundarios, los cuales son monitoreados y gestionados por el médico.</div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question fs-4" onclick="toggleAnswer(this)">
+                    <b>¿Podría un amigo o familiar ayudar a mejorar trastornos de salud mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></span>
+                </button>
+                <div class="faq-answer fs-6">Sí, el apoyo de amigos y familiares puede ser muy beneficioso en el tratamiento de trastornos de salud mental. Pueden proporcionar apoyo emocional, ayudar a adherirse al tratamiento y ofrecer un entorno comprensivo.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png" width="90" height="90" alt="logo de bienestar mental">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li>Whatsapp: +51961813519</li>
+                        <li>Correo: psiquiatriabieneestarmental@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Síguenos</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-facebook "></i> Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+    function toggleAnswer(element) {
+    const answer = element.nextElementSibling;
+    const symbol = element.querySelector('.symbol');
+    const isVisible = answer.style.display === "block";
+
+    // Close all answers
+    document.querySelectorAll(".faq-answer").forEach(answer => answer.style.display = "none");
+    document.querySelectorAll(".symbol").forEach(sym => sym.textContent = "+");
+
+    // Toggle the clicked answer
+    if (!isVisible) {
+        answer.style.display = "block";
+        symbol.textContent = "-";
+    }
+}
+</script>

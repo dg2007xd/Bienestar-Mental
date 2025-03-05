@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar Mental</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Bootstrap Grid</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container-fluid">
+          <div class="main-logo d-lg-none">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png" alt="logo de bienestar mental" width="50" height="50">
+                  Bienestar Mental
+              </a>
+           </div>
+           <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+               <div class="offcanvas-header mt-3">
+               <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class="offcanvas-body justify-content-between">
+               <div class="main-logo">
+                  <a class="navbar-brand fs-3" href="index.html">
+                     <img src="img/logo.png" alt="logo de bienestar mental" width="70" height="70">
+                     Bienestar Mental
+                  </a>
+               </div>
+               <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
+                  <li id="menu" class="nav-item">
+                     <a href="index.html" class="nav-link mx-2 fs-5">Inicio</a>
+                  </li>
+                  <li id="menu" class="nav-item dropdown">
+                      <a class="nav-link mx-2 dropdown-toggle fs-5" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                      </a>
+                      <ul class="nav-item dropdown-menu">
+                          <li><a class="dropdown-item fs-5" href="citamedica.html">Cita médica</a></li>
+                          <li><a class="dropdown-item fs-5" href="emisiondecertificado.html">Emisión de certificado</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu" class="nav-item">
+                      <a href="acercade.html" class="nav-link mx-2 fs-5">Acerca de</a>
+                   </li>
+                   <li id="menu" class="nav-item">
+                    <a href="conocete.html" class="nav-link mx-2 fs-5">Conócete</a>
+                    </li>
+                   <li class="text-start text-lg-end">
+                        <a class="btn" href="contacto.html">
+                            <button> <i class="fas fa-envelope"></i> 
+                               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path>
+                               </svg>
+                               Contacto
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+           </div>
+        </div>
+    </nav>
+
+  
+  <!-- BANNER -->
+  <div id="principal" class="container-center mt-3 rounded-4 mx-5">
+        <div class="container">
+            <div class="row g-2 align-items-center p-4">
+                <div class="col-lg-5 col-md-12">
+                    <h1 class="display-5 fw-bold" style="font-family: Plus Jakarta Sans, sans-serif">Cuidamos de ti</h1>
+                    <p class="info fs-5">En Bienestar Mental te ayudamos a sanar tus heridas emocionales a través de la psiquiatría y la psicoterapia cognitiva conductual</p>
+                    <a class="btn-cont" href="contacto.html">
+                        <button> <i class="fas fa-envelope "></i> 
+                           Reservar una cita
+                        </button>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/banner.jpg" class="img-fluid animated zoomIn" alt="un doctor tomando apuntes de lo que dice el paciente">
+                </div>
+            </div>
+        </div>
+  </div>
+  
+  <!-- DETALLES -->
+  <div class="container-center rounded-4 mx-5 mt-5 mb-5 p-5" style="font-family: Plus Jakarta Sans, sans-serif">
+      <div class="text-center p-3">
+          <h2 class="fs-1 fw-semi-bold"> Nuestros servicios</h2>
+          <p class="fs-5">Estás a un paso de comprender tus problemas, reconocer tu potencial y sanar tus heridas emocionales.</p>
+       </div>
+  </div>
+  
+  <!-- CONTENIDO -->
+  <div id="contenido" class="container-center rounded-4 mx-5 my-5 p-4" style="font-family: Plus Jakarta Sans, sans-serif">
+       <div class="container">
+           <div class="row g-2 align-items-center p-4">
+              <div class="col-lg-5 col-md-12">
+                  <h3 class="fs-1 fw-bold mb-3">Cita Médica Psiquiátrica Virtual o Presencial</h3>
+              </div>
+              <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end align-items-center ">
+                <a class="btn-cont " href="contacto.html">
+                    <button> <i class="fas fa-envelope"></i> 
+                       Reservar una cita
+                    </button>
+                </a>
+              </div>
+           </div>
+           <hr class="border-bottom my-3">
+           <div class="row g-2 align-items-center p-2 ">
+               <div id="list" class="col-lg-5 col-md-12 ">
+                  <p class="info fs-5 m-1">
+                     <i class="bi bi-check-circle-fill"></i> Duración: 45 minutos aprox.
+                  </p>
+                  <p class="info fs-5 m-1">
+                     <i class="bi bi-check-circle-fill"></i> Cita virtual: S/180
+                  </p>           
+                  <p class="info fs-5 m-1">
+                     <i class="bi bi-check-circle-fill"></i> Cita presencial: S/200
+                  </p> 
+                  <p class="info fs-5 m-1">
+                     <i class="bi bi-check-circle-fill"></i> Precio en moneda peruana.
+                   </p> 
+                  <p class="info fs-5 m-1">
+                      <i class="bi bi-check-circle-fill"></i> Atención solo en Perú.
+                  </p> 
+               </div>
+               <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end">
+                  <img src="img/iniciouno.png" width="500" height="500" class="img-fluid animated zoomIn" alt="una laptop animada con dos personas haciendo una videollamada">
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contenido" class="container-center rounded-4 mx-5 my-5 p-4" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+            <div class="row g-2 align-items-center p-4">
+               <div class="col-lg-9 col-md-12">
+                   <h3 class="fs-1 fw-bold mb-3">Emisión de Certificado de Salud Mental </br> Virtual o Presencial</h3>
+               </div>
+               <div class="col-lg-3 col-md-12 d-flex justify-content-start justify-content-md-end align-items-center ">
+                 <a class="btn-cont " href="contacto.html">
+                     <button> <i class="fas fa-envelope"></i> 
+                        Reservar una cita
+                     </button>
+                 </a>
+               </div>
+            </div>
+            <hr class="border-bottom my-3">
+            <div class="row g-2 align-items-center p-2 ">
+                <div id="list" class="col-lg-5 col-md-12">
+                   <p class="info fs-5 m-1">
+                      <i class="bi bi-check-circle-fill"></i> Duración: 40 minutos aprox.
+                   </p>
+                   <p class="info fs-5 m-1">
+                      <i class="bi bi-check-circle-fill"></i> Previa reservación vía Whatsapp
+                   </p>           
+                   <p class="info fs-5 m-1">
+                      <i class="bi bi-check-circle-fill"></i> Costo: S/300
+                   </p> 
+                   <p class="info fs-5 m-1">
+                      <i class="bi bi-check-circle-fill"></i> Precio en moneda peruana.
+                    </p> 
+                   <p class="info fs-5 m-1">
+                       <i class="bi bi-check-circle-fill"></i> Atención solo en Perú.
+                   </p> 
+                </div>
+                <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end">
+                   <img src="img/iniciodos.png" width="500" height="500" class="img-fluid animated zoomIn" alt="un certificado de salud">
+               </div>
+             </div>
+         </div>
+        </div>
+     
+
+    <!-- ACERCA DE -->
+    <div class="container-center rounded-4 mx-5 my-5 p-4" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+          <div class="row g-2 align-items-center p-4">
+             <div class="col-lg-7 col-md-12">
+                 <div  class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end ">
+                     <img src="img/dr.png"  width="800" height="800" class="img-fluid animated zoomIn" alt="el doctor de bienes mental, Alonso Peña">
+                 </div>
+             </div>
+             <div class="col-lg-5 col-md-12 justify-content-start justify-content-md-end align-items-center">
+                 <h3 class="fs-1 fw-bold mb-3" >Acerca de</h3>
+                 <p class="fs-5">
+                     Bienestar Mental está dirigido por el Dr. Alonso Peña, especialista en psiquiatría y psicoterapia cognitivo conductual.
+                     Cuenta con más de 15 años de experiencia en el campo de la psiquiatría y la psicoterapia cognitivo conductual.
+                     Actualmente se desempeña como jefe de la unidad de rehabilitación del Instituto Nacional de Salud Mental Honorio Delgado-Hideyo Noguchi.
+                 </p>
+                 <a class="btn-cont " href="acercade.html">
+                    <button> <i class="fas fa-envelope"></i> 
+                       Saber más
+                    </button>
+                  </a>
+                </div>
+           </div>
+        </div>
+    </div>
+
+
+   <!-- FOOTER -->
+   <footer class="bg-dark text-light py-4 mt-5" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png" width="90" height="90" alt="logo de bienestar mental">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li>Whatsapp: +51961813519</li>
+                        <li>Correo: psiquiatriabieneestarmental@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Síguenos</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
