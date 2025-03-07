@@ -20,6 +20,12 @@
 }
 #contenido {
     background-color: #f0f0f0;
+    min-height: 35em;
+    max-width: 40%;
+}
+#contenido1{
+    max-width: 100%;
+    background-color: #f0f0f0;
 }
 #contenido-cita{
     background-color: #e6f8f9;
@@ -215,7 +221,7 @@
    border-radius: 50%;
 }
 #cuadro-comentario .row{
-    background-color: #00B8C6;
+    background-color: #E5F8F9;
     border-radius: 15px;
 }
 #cuadro-comentario h2{
@@ -283,6 +289,11 @@
     display: inline-flex;
     align-items: center;
 }
+.row .colu-cer {
+    flex: 0 0 auto;
+    width: 12.333333%;
+}
+
 body {
     animation-name: desplazamiento;
     animation-duration: 1.5s;
@@ -379,5 +390,38 @@ body {
         margin-top: 5%;
         align-items: center;
     }
-    
+    #linea{
+        rotate: 90deg;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .colu-cer {
+        flex: 0 0 auto;
+        width: 94.333333% !important;
+    }
+    .numero{
+        margin: 0 70px;
+    }
+    .list-icon{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .iconos{
+        max-height: 50px;
+    }
+    .text-ico{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .datos{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .datobtn{
+        margin: 15px 0;
+    }
+    #contenido{
+        min-height: 30em;
+        max-width: 100%;
+    }
 }

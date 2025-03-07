@@ -1,194 +1,237 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienestar Mental</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pp-pangaia" rel="stylesheet">
-    
+
     <title>Bootstrap Grid</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!-- FAVICON -->
     <link rel="icon" href="img/logo.png" type="image/png">
 </head>
+
 <body>
-  <!-- NAV -->
-  <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4" style="font-family: Plus Jakarta Sans, sans-serif">
+    <!-- NAV -->
+    <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4"
+        style="font-family: Plus Jakarta Sans, sans-serif">
         <div class="container-fluid">
-          <div class="main-logo d-lg-none">
-              <a class="navbar-brand" href="index.html">
-                  <img src="img/logo.png" alt="Logo de bienestar mental" width="50" height="50">
-                  Bienestar Mental
-              </a>
-           </div>
-           <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-               <div class="offcanvas-header mt-3">
-               <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-           </div>
-           <div class="offcanvas-body justify-content-between">
-               <div class="main-logo">
-                  <a class="navbar-brand fs-3" href="index.html">
-                     <img src="img/logo.png" alt="logo del centro de salud bienestar mental" width="70" height="70">
-                     Bienestar Mental
-                  </a>
-               </div>
-               <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
-                  <li id="menu" class="nav-item">
-                     <a href="index.html" class="nav-link mx-2 fs-5">Inicio</a>
-                  </li>
-                  <li id="menu" class="nav-item dropdown">
-                      <a class="nav-link mx-2 dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Servicios
-                      </a>
-                      <ul class="nav-item dropdown-menu">
-                          <li><a class="dropdown-item fs-5" href="citamedica.html">Cita médica</a></li>
-                          <li><a class="dropdown-item fs-5" href="emisiondecertificado.html">Emisión de certificado</a></li>
-                      </ul>
-                    </li>
-                    <li id="menu" class="nav-item">
-                      <a href="acercade.html" class="nav-link mx-2 fs-5">Acerca de</a>
-                   </li>
-                   <li class="text-start text-lg-end">
-                      <a class="btn" href="contacto.html">
-                         <button> <i class="fas fa-envelope "></i> 
-                              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"></path>
-                              </svg>
-                           Contacto
-                         </button>
-                      </a>
-                    </li>
-                </ul>
-           </div>
-        </div>
+            <div class="main-logo d-lg-none">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo de bienestar mental" width="50" height="50">
+                    Bienestar Mental
+                </a>
+            </div>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header mt-3">
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-between">
+                    <div class="main-logo">
+                        <a class="navbar-brand fs-3" href="index.html">
+                            <img src="img/logo.png" alt="logo del centro de salud bienestar mental" width="70"
+                                height="70">
+                            Bienestar Mental
+                        </a>
+                    </div>
+                    <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0">
+                        <li id="menu" class="nav-item">
+                            <a href="index.html" class="nav-link mx-2 fs-5">Inicio</a>
+                        </li>
+                        <li id="menu" class="nav-item dropdown">
+                            <a class="nav-link mx-2 dropdown-toggle fs-5" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="nav-item dropdown-menu">
+                                <li><a class="dropdown-item fs-5" href="citamedica.html">Cita médica</a></li>
+                                <li><a class="dropdown-item fs-5" href="emisiondecertificado.html">Emisión de
+                                        certificado</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu" class="nav-item">
+                            <a href="acercade.html" class="nav-link mx-2 fs-5">Acerca de</a>
+                        </li>
+                        <li id="menu" class="nav-item">
+                            <a href="conocete.html" class="nav-link mx-2 fs-5">Conócete</a>
+                        </li>
+                        <li class="text-start text-lg-end">
+                            <a class="btn" href="contacto.html">
+                                <button> <i class="fas fa-envelope "></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z">
+                                        </path>
+                                    </svg>
+                                    Contacto
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </nav>
 
-    <p style="margin: 0rem 0rem 2rem 3rem; font-family: Plus Jakarta Sans, sans-serif; color: #7B7B7B" >Inicio <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-      </svg> Servicios
+    <p style="margin: 0rem 0rem 2rem 3rem; font-family: Plus Jakarta Sans, sans-serif; color: #7B7B7B">Inicio <svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+        </svg> Servicios
     </p>
- 
-    
+
+
     <!-- BANNER -->
-  <div id="principal" class="container-center mt-3 rounded-4 mx-5" style="font-family: Plus Jakarta Sans, sans-serif">
+    <div id="principal" class="container-center mt-3 rounded-4 mx-5" style="font-family: Plus Jakarta Sans, sans-serif">
         <div class="container">
             <div class="row g-2 align-items-center p-4">
                 <div class="col-lg-6 col-md-12">
                     <h1 class="display-5 fw-bold">Certificado de <br> salud mental</h1>
-                    <p class="info fs-5">Ofrecemos el servicio de emisión de certificado de salud mental para trámites como:</p>
-                    <div class="d-flex flex-row">
-                        <img src="img/icono1-certificado.svg" alt="icono de traspaso"><div class="p-3">Traspasos de terreno</div>
-                        <img src="img/icono2-certificado.svg" alt="icono de documentación"><div class="p-3">Gestión documental</div>
-                        <img src="img/icono3-certificado.svg" alt="icono de trabajo o uni"><div class="p-3">Ingreso a trabajo o universidad.</div>
+                    <p class="info fs-5">Ofrecemos el servicio de emisión de certificado de salud mental para trámites
+                    como:</p>
+
+                    <div class="col d-flex list-icon">
+                        <img class="img-fluid iconos" src="img/icono1-certificado.svg" alt="icono de traspaso">
+                        <div class="p-3 text-ico">Traspasos de terreno</div>
+                        <img class="img-fluid iconos" src="img/icono2-certificado.svg" alt="icono de documentación">
+                        <div class="p-3 text-ico">Gestión documental</div>
+                        <img class="img-fluid iconos" src="img/icono3-certificado.svg" alt="icono de trabajo o uni">
+                        <div class="p-3 text-ico">Ingreso a trabajo o universidad.</div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <img src="img/certificacion.png" class="img-fluid animated zoomIn" alt="Chica con certificado aprobado">
+                    <img src="img/certificacion.png" class="img-fluid animated zoomIn"
+                        alt="Chica con certificado aprobado">
                 </div>
             </div>
         </div>
-  </div>
+    </div>
 
     <!-- DETALLES -->
-  <div class="container-center rounded-4 mx-5 mt-5 mb-5 p-5" style="font-family: Plus Jakarta Sans, sans-serif">
-    <div class="p-3">
-        <h2 class="text-center fs-1 fw-bold" style="margin-bottom: 3em"> Podrás optar por el certificado de <br> salud mental en cuatro pasos: </h2>
-        
-        <div class="d-flex justify-content-center" style="padding-left: 5%">
-            <div class="flex-row">
-                <img src="img/num1.png" alt="numero 1"><div class="img-fluid p-3"></div>
-                
-                <div class="p-1">Contactanos vía llamada o WhatsApp para reservar tu cita</div>
-            </div>
+    <div class="container-center rounded-4 mx-5 mt-5 mb-5 p-5" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="p-3">
+            <h2 class="text-center fs-1 fw-bold" style="margin-bottom: 3em"> Podrás optar por el certificado de <br>
+                salud mental en cuatro pasos: 
+            </h2>
 
-            <img src="img/linea.png" alt="linea-vector" style="margin-right: 2em; width: 12em; height: 3em"><div class="img-fluid p-3"></div>
+            <ul class="row justify-content-center">
+                <div class="colu-cer">
+                    <img class="numero mb-3" src="img/num1.png" alt="numero 1">
 
-            <div class="flex-row">
-                <img src="img/num2.png" alt="numero 2"><div class="img-fluid p-3"></div>
-                <div class="p-1">Realizaremos tu evaluación vía Zoom, Skype, Google Meet o presencial</div>
-            </div>
+                    <div class="p-1">Contactanos vía llamada o WhatsApp para reservar tu cita</div>
+                </div>
 
-            <img src="img/linea.png" alt="linea-vector" style="margin-right: 2em; width: 12em; height: 3em"><div class="img-fluid p-3"></div>
+                <img src="img/linea.png" id="linea" alt="linea-vector"
+                style="margin-right: 2em; width: 12em; height: 3em">
 
-            <div class="flex-row">
-                <img src="img/num3.png" alt="numero 3"><div class="img-fluid p-3"></div>
-                <div class="p-1">Posterior a la evaluación recibirás el resultado</div>
-            </div>
+                <div class="colu-cer">
+                    <img class="numero mb-3" src="img/num2.png" alt="numero 2">
+                    <div class="p-1">Realizaremos tu evaluación vía Zoom, Skype, Google Meet o presencial</div>
+                </div>
 
-            <img src="img/linea.png" alt="linea-vector" style="margin-right: 2em; width: 12em; height: 3em"><div class="img-fluid p-3"></div>
+                <img src="img/linea.png" id="linea" alt="linea-vector"
+                style="margin-right: 2em; width: 12em; height: 3em">
 
-            <div class="flex-row">
-                <img src="img/num4.png" alt="numero 4"><div class="img-fluid p-3"></div>
-                <div class="p-1">Coordinaremos el envío de tu certificado en caso de haber optado por atención virtual</div>
-            </div>
+                <div class="colu-cer">
+                    <img class="numero mb-3" src="img/num3.png" alt="numero 3">
+                    <div class="p-1">Posterior a la evaluación recibirás el resultado</div>
+                </div>
+
+                <img src="img/linea.png" id="linea" alt="linea-vector"
+                style="margin-right: 2em; width: 12em; height: 3em">
+
+                <div class="colu-cer">
+                    <img class="numero mb-3" src="img/num4.png" alt="numero 4">
+                    <div class="p-1">Coordinaremos el envío de tu certificado en caso de haber optado por atención
+                        virtual</div>
+                </div>
+            </ul>
+
         </div>
     </div>
-</div>
 
     <!-- CONTENIDO -->
-    <div id="contenido-cita" class="container-center rounded-4 mx-5 my-5 p-4" style="font-family: Plus Jakarta Sans, sans-serif">
+    <div id="contenido-cita" class="container-center rounded-4 mx-5 my-5 p-4"
+        style="font-family: Plus Jakarta Sans, sans-serif">
         <div class="container">
             <div class="row g-2 align-items-center p-4">
-               <div class="col-lg-5 col-md-12">
-                   <h3 class="fs-1 fw-bold mb-3">Costo del certificado de salud mental</h3>
-               </div>
-               <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end">
-                <h1 class="display-1" style="color: #00B8C6; font-family: PP Pangaia;"><b>S/200</b></h1>
-            </div>
+                <div class="col-lg-5 col-md-12">
+                    <h3 class="fs-1 fw-bold mb-3">Costo del certificado de salud mental</h3>
+                </div>
+                <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end">
+                    <h1 class="display-1" style="color: #00B8C6; font-family: PP Pangaia;"><b>S/200</b></h1>
+                </div>
             </div>
             <hr class="border-bottom my-3">
             <div id="list" class="row g-2 align-items-center p-2 ">
                 <div class="col-lg-5 col-md-12 ">
-                   <p class="info fs-5 m-1">
-                      <i class="bi bi-check-circle-fill"></i> Precio en moneda peruana. 
-                   </p>
-                   <p class="info fs-5 m-1">
-                      <i class="bi bi-check-circle-fill "></i> Atención válida en Perú. 
-                   </p>           
-                   <p class="info fs-5 m-1">
-                      <i class="bi bi-check-circle-fill"></i> Citas virtuales o presenciales. 
-                   </p> 
+                    <p class="info fs-5 m-1">
+                        <i class="bi bi-check-circle-fill"></i> Precio en moneda peruana.
+                    </p>
+                    <p class="info fs-5 m-1">
+                        <i class="bi bi-check-circle-fill "></i> Atención válida en Perú.
+                    </p>
+                    <p class="info fs-5 m-1">
+                        <i class="bi bi-check-circle-fill"></i> Citas virtuales o presenciales.
+                    </p>
                 </div>
                 <div class="col-lg-7 col-md-12 d-flex justify-content-start justify-content-md-end align-items-center">
                     <a class="btn-cont" href="contacto.html">
-                        <button> <i class="fas fa-envelope "></i> 
-                           Reservar una cita
+                        <button> <i class="fas fa-envelope "></i>
+                            Reservar una cita
                         </button>
                     </a>
                 </div>
-             </div>
-         </div>
-     </div>
+            </div>
+        </div>
+    </div>
 
-     <!-- PREGUNTAS -->
+    <!-- PREGUNTAS -->
     <div class="container-center mt-3 rounded-4 mx-5 mb-3 mt-5" style="font-family: Plus Jakarta Sans, sans-serif">
         <div class="container-fluid ">
 
             <div class="faq-item">
                 <h1 class="fs-1 mb-5 text-center"><b>Preguntas Frecuentes</b></h1>
                 <button class="faq-question fs-4" onclick="toggleAnswer(this)">
-                    <b>¿Cuál es el proceso para obtener el certificado de salud mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                    </svg></span>
+                    <b>¿Cuál es el proceso para obtener el certificado de salud mental?</b> <span class="symbol"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg></span>
                 </button>
-                <div class="faq-answer fs-6">Debes realizar la solicitud para realizar la evaluación de certificado de salud mental.</div>
+                <div class="faq-answer fs-6">Debes realizar la solicitud para realizar la evaluación de certificado de
+                    salud mental.</div>
             </div>
 
 
             <div class="faq-item">
                 <button class="faq-question fs-4" onclick="toggleAnswer(this)">
-                    <b>¿Qué sucede si la persona que solicita el certificado de salud mental presenta trastornos de salud mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                    </svg></span>
+                    <b>¿Qué sucede si la persona que solicita el certificado de salud mental presenta trastornos de
+                        salud mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg></span>
                 </button>
                 <div class="faq-answer fs-6">La evaluación determinará si es apta para recibir el certificado.</div>
             </div>
@@ -196,86 +239,99 @@
 
             <div class="faq-item">
                 <button class="faq-question fs-4" onclick="toggleAnswer(this)">
-                    <b>¿En qué casos no tiene validez el certificado de salud mental emitido por Bienestar Mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                    </svg></span>
+                    <b>¿En qué casos no tiene validez el certificado de salud mental emitido por Bienestar Mental?</b>
+                    <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg></span>
                 </button>
-                <div class="faq-answer fs-6">No será validado si se proporcionan datos falsos o la evaluación no cumple con los protocolos.</div>
+                <div class="faq-answer fs-6">No será validado si se proporcionan datos falsos o la evaluación no cumple
+                    con los protocolos.</div>
             </div>
 
 
             <div class="faq-item">
                 <button class="faq-question fs-4" onclick="toggleAnswer(this)">
-                    <b>¿En qué casos sí tiene validez el certificado de salud mental emitido por Bienestar Mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                    </svg></span>
+                    <b>¿En qué casos sí tiene validez el certificado de salud mental emitido por Bienestar Mental?</b>
+                    <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg></span>
                 </button>
-                <div class="faq-answer fs-6">Cuando la evaluación sigue todos los procedimientos y se cumplen los criterios necesarios.</div>
+                <div class="faq-answer fs-6">Cuando la evaluación sigue todos los procedimientos y se cumplen los
+                    criterios necesarios.</div>
             </div>
 
 
             <div class="faq-item">
                 <button class="faq-question fs-4" onclick="toggleAnswer(this)">
-                    <b>¿Cuáles son las vías de envío del certificado de salud mental?</b> <span class="symbol"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                    </svg></span>
+                    <b>¿Cuáles son las vías de envío del certificado de salud mental?</b> <span class="symbol"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                        </svg></span>
                 </button>
-                <div class="faq-answer fs-6">Puede ser virtualmente por correo electrónico o físicamente, según la modalidad de atención.</div>
+                <div class="faq-answer fs-6">Puede ser virtualmente por correo electrónico o físicamente, según la
+                    modalidad de atención.</div>
             </div>
         </div>
     </div>
 
-      
 
-   <!-- FOOTER -->
-   <footer class="bg-dark text-light py-4 mt-5" style="font-family: Plus Jakarta Sans, sans-serif">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <img src="img/logo.png" width="90" height="90" alt="logo de bienestar mental">
-            </div>
-            <div class="col-md-4">
-                <h4 class="fs-3">Contacto</h4>
-                <ul class="list-unstyled">
-                    <li>Whatsapp: +51961813519</li>
-                    <li>Correo: psiquiatriabieneestarmental@gmail.com</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h4 class="fs-3">Síguenos</h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#" class="text-light text-decoration-none">
-                            <i class="bi bi-instagram "></i> Instagram
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-light text-decoration-none">
-                            <i class="bi bi-facebook "></i> Facebook
-                        </a>
-                    </li>
-                </ul>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4 mt-5" style="font-family: Plus Jakarta Sans, sans-serif">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png" width="90" height="90" alt="logo de bienestar mental">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li>Whatsapp: +51961813519</li>
+                        <li>Correo: psiquiatriabieneestarmental@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="fs-3">Síguenos</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-instagram "></i> Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-decoration-none">
+                                <i class="bi bi-facebook "></i> Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 </body>
+
 </html>
 
 <script>
     function toggleAnswer(element) {
-    const answer = element.nextElementSibling;
-    const symbol = element.querySelector('.symbol');
-    const isVisible = answer.style.display === "block";
+        const answer = element.nextElementSibling;
+        const symbol = element.querySelector('.symbol');
+        const isVisible = answer.style.display === "block";
 
-    // Close all answers
-    document.querySelectorAll(".faq-answer").forEach(answer => answer.style.display = "none");
-    document.querySelectorAll(".symbol").forEach(sym => sym.textContent = "+");
+        // Close all answers
+        document.querySelectorAll(".faq-answer").forEach(answer => answer.style.display = "none");
+        document.querySelectorAll(".symbol").forEach(sym => sym.textContent = "+");
 
-    // Toggle the clicked answer
-    if (!isVisible) {
-        answer.style.display = "block";
-        symbol.textContent = "-";
+        // Toggle the clicked answer
+        if (!isVisible) {
+            answer.style.display = "block";
+            symbol.textContent = "-";
+        }
     }
-}
 </script>
 </footer>
